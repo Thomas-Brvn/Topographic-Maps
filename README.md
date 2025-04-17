@@ -4,13 +4,29 @@
 
 Ce projet utilise la librairie [`ridge_map`](https://github.com/ismailsunni/ridge_map) pour créer des visualisations artistiques des reliefs à partir de données topographiques. Inspirée des styles de cartes en lignes de crête, cette approche permet de générer des rendus esthétiques basés sur l'altitude.
 
-## 📚 À propos de la librairie `ridge_map`
+![Finistere](https://github.com/user-attachments/assets/9d31d293-aedb-4361-99bb-afe32d292e9e)
+
+
+## À propos de la librairie `ridge_map`
 
 - **Auteur** : @ColCarroll — [GitHub officiel](https://github.com/ColCarroll/ridge_map)
-- **But** : Générer des cartes stylisées à partir de données d’élévation (élévation = hauteur du terrain) via l'API de [Mapzen Terrain Tiles](https://registry.opendata.aws/terrain-tiles/) (AWS Open Data).
+- **But** : Générer des cartes stylisées à partir de données d’élévation (altitude) via l'API de [Mapzen Terrain Tiles](https://registry.opendata.aws/terrain-tiles/) (AWS Open Data).
+- **D'où viennent ces données ? Mapzen (aujourd’hui archivé) s’appuyait sur plusieurs sources d’élévation :**
+  
+
+
+  NASA SRTM (Shuttle Radar Topography Mission)
+  
+  ASTER GDEM (produit par la NASA et le METI ,l’agence spatiale japonaise)
+
+  OpenStreetMap (pour les couches vectorielles et lacs)
+  
+  Viewfinder Panoramas pour les zones non couvertes par la NASA
+  
+  Toutes ces données ont été regroupées, nettoyées et découpées en tuiles accessibles librement.
+  
 - **Langages** : Python 3, Matplotlib, Numpy
 
-> 💡 Elle permet de tracer des lignes d’altitude artistiques ("ridges") à partir de coordonnées géographiques (latitude/longitude).
 
 ---
 
@@ -25,10 +41,3 @@ Ce projet utilise la librairie [`ridge_map`](https://github.com/ismailsunni/ridg
 
 
 ---
-
-## 🛠️ Installation
-
-### Cloner le repo :
-```bash
-git clone https://github.com/tonpseudo/ridge-map-japon.git
-cd ridge-map-japon
