@@ -31,6 +31,8 @@ Ce projet utilise la librairie [`ridge_map`](https://github.com/ismailsunni/ridg
 ---
 
 ##  Exemples
+![corse](https://github.com/user-attachments/assets/070d65a5-a253-4040-984d-84d4bc468023)
+
 ![mt_blanc](https://github.com/user-attachments/assets/5ebaa90b-c9dc-47e9-993f-db1baa0f6f69)
 
 ![las_vegas](https://github.com/user-attachments/assets/be0b3791-1a1a-420c-a080-51479baae954)
