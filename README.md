@@ -1,6 +1,6 @@
 # Ridge-map
 
-# Visualisation artistique des courbes de niveau
+# Visualisation topographiques 
 
 Ce projet utilise la librairie [`ridge_map`](https://github.com/ismailsunni/ridge_map) pour créer des visualisations artistiques des reliefs à partir de données topographiques. Inspirée des styles de cartes en lignes de crête, cette approche permet de générer des rendus esthétiques basés sur l'altitude.
 
